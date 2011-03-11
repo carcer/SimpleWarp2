@@ -1,0 +1,23 @@
+name: SimpleWarp2
+
+main: com.monkeynuts.bukkit.SimpleWarp2.Warp
+
+version: 1.0
+
+commands:
+  warp:
+    description: warps to your location
+    usage: /<command> <name> warp to that location. Will try to match the exact name, and then anything that start with the name entered.
+  warpto:
+    description: warps player to specified location
+    usage: /<command> <player> <name> warps specified player to the location
+  listwarps:
+    description: lists warps
+    usage: /<command> [filter] list warps use filter to narrow down
+  setwarp:
+    description: sets a your location to warp point
+    usage: /<command> <name> sets a warp current location
+  removewarp:
+    description: sets a your location to warp point 
+    usage: /<command> <name> removes warp at your location
+    
